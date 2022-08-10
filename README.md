@@ -24,8 +24,8 @@
 ├── node_modules                # 开发依赖包 (gitignore)
 ├── package                     # build-package的产物，用于发npm包 (gitignore)
 ├── src                         # 组件库源码（原stories => src）
-│ ├── examples                  # 存放示例页面（组件拼装）
-│ ├── components                # 存放所有组件
+│ ├── examples                  # 存放示例页面（目录排序：3）
+│ ├── components                # 存放所有组件（目录排序：4）
 │   ├── xxx-xxx                 # 某组件源码 (小写+中划线命名)
 │     ├── xxx.stories.tsx       # 组件Demo
 │     ├── style                 # 组件样式文件
