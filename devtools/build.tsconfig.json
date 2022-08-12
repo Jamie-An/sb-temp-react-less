@@ -1,0 +1,27 @@
+{
+  "include": ["../src/**/*.ts", "../src/**/*.tsx"],
+  "exclude": ["../src/**/*.stories.ts", "../src/**/*.stories.tsx"],
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2015",
+    "lib": ["es2015", "DOM"],
+    "declaration": true,
+    "sourceMap": true,
+    "rootDir": "../src",
+    "outDir": "../package/lib",
+
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "storybook-templet",
+  "version": "0.0.1",
+  "description": "storybook-templet",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build": "build-storybook",
+    "build-package": "node devtools/build-package",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jamie-An/vapor-c.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamie-An/vapor-c/issues"
+  },
+  "homepage": "https://github.com/Jamie-An/vapor-c#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack4": "^6.5.10",
+    "@storybook/cli": "^6.5.10",
+    "@storybook/manager-webpack4": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "0.0.13",
+    "@storybook/theming": "^6.5.10",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^9.8.8",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-rename-import": "^2.3.0",
+    "css-loader": "^5.2.7",
+    "del": "^6.1.1",
+    "less": "^4.1.3",
+    "less-loader": "^7.3.0",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^9.1.0",
+    "postcss-loader": "^4.3.0",
+    "postcss-preset-env": "^7.7.2",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": [
+    "last 3 version",
+    ">2%"
+  ]
+}

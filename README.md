@@ -1,11 +1,29 @@
 # storybook-templet
 
-基于storybook扩展后的模板，用于快速搭建组件库。
+> 一个基于 storybook 扩展的组件库搭建环境
+> 开发环境：storybook@6 + react@17 + TS + Less
 
-> storybook + React + less/sass + webpack => npm package 
+```shell
+# 1、拉取项目
+git clone https://github.com/Jamie-An/vapor-c.git
 
+# 2、安装依赖
+cd vapor-c
+npm i
 
-## 目录结构
+# 3、启动项目
+npm start
+
+# 4、打包项目预览页
+npm run build
+
+# 5、打包/发布 npm包
+npm run build-package
+cd package
+npm publish .
+```
+
+- 文档结构说明
 
 ```shell
 .
@@ -19,20 +37,21 @@
 ├── devtools                    # 打包相关配置文件
 │ ├── build-package.js          # 定义打包流程
 │ ├── build.babel.config.js     # 打包时的 babel 配置
-| └── tsconfig.build.js         # 打包时的 TS 配置
+│ ├── build.tsconfig.json       # 打包时的 TS 配置,主要用于屏蔽.stories.tsx
+| └── less2css.js               # 主要封装了 lessc, 提供批量编译能力
 ├── storybook-static            # 站点打包后的静态文件产物 (gitignore)
 ├── node_modules                # 开发依赖包 (gitignore)
 ├── package                     # build-package的产物，用于发npm包 (gitignore)
 ├── src                         # 组件库源码（原stories => src）
-│ ├── examples                  # 存放示例页面（目录排序：3）
-│ ├── components                # 存放所有组件（目录排序：4）
+│ ├── examples                  # 存放示例页面（组件拼装）
+│ ├── components                # 存放所有组件
 │   ├── xxx-xxx                 # 某组件源码 (小写+中划线命名)
 │     ├── xxx.stories.tsx       # 组件Demo
 │     ├── style                 # 组件样式文件
+|        ├── index.less         # 组件样式文件
 │     ├── index.ts              # 组件入口文件，用于 export 组件及 TS声明
 │     ├── Xxxx.tsx              # 组件子组成部分(大驼峰命名)
-│ ├── mixins                    # Saas通用minxins
-│ ├── _assets                   # 存放静态资源，如: 图片、svg、font等。
+│ ├── assets                    # 存放静态资源，如: 图片、svg、font等。
 │ ├── style                     # 存放全局样式文件
 │ ├── untils                    # 存放工具函数
 │ ├── index.ts                  # 组件库打包入口文件
