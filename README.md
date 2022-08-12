@@ -5,10 +5,10 @@
 
 ```shell
 # 1、拉取项目
-git clone https://github.com/Jamie-An/vapor-c.git
+git clone https://github.com/Jamie-An/storybook-templet.git
 
 # 2、安装依赖
-cd vapor-c
+cd storybook-templet
 npm i
 
 # 3、启动项目
