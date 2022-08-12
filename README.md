@@ -1,8 +1,6 @@
 # storybook-templet
 
-> 一个基于 storybook 扩展的组件库开发环境
-
-> storybook@6 + react@17 + TS + Less
+> 一个基于 storybook 扩展的组件库开发环境： storybook@6 + react@17 + TS + Less
 
 ```shell
 # 1、拉取项目
