@@ -1,5 +1,7 @@
 # storybook-templet
 
+![](https://raw.githubusercontent.com/Jamie-An/bucket/main/img/202208121621056.png)
+
 > 一个基于 storybook 扩展的组件库开发环境： storybook@6 + react@17 + TS + Less
 
 ```shell
