@@ -3,8 +3,8 @@ import { create } from '@storybook/theming'
 
 const theme = create({
   base: 'dark',
-  brandTitle: 'Vapor-C',
-  brandUrl: 'https://xzzz.xyz',
+  brandTitle: 'StoryBook',
+  brandUrl: 'https://xzzz.xyz/',
   // brandImage: 'https://place-hold.it/200x50/2f2f2f/fff&text=Vapor-C&fontsize=28'
 })
 

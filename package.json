@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jamie-An/vapor-c.git"
+    "url": "git+https://github.com/Jamie-An/sb-temp-react-less.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jamie-An/vapor-c/issues"
+    "url": "https://github.com/Jamie-An/sb-temp-react-less/issues"
   },
-  "homepage": "https://github.com/Jamie-An/vapor-c#readme",
+  "homepage": "https://github.com/Jamie-An/sb-temp-react-less#readme",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.10",
