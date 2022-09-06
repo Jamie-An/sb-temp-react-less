@@ -1,4 +1,4 @@
-# storybook-templet
+# storybook-templet-react-less
 
 ![](https://raw.githubusercontent.com/Jamie-An/bucket/main/img/202208121621056.png)
 
@@ -6,10 +6,10 @@
 
 ```shell
 # 1、拉取项目
-git clone https://github.com/Jamie-An/storybook-templet.git
+git clone https://github.com/Jamie-An/sb-temp-react-less.git
 
 # 2、安装依赖
-cd storybook-templet
+cd sb-temp-react-less
 npm i
 
 # 3、启动项目
