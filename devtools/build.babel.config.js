@@ -6,7 +6,7 @@ module.exports = {
   ],
   plugins: [
     [
-      // 打包时替换 .scss => css
+      // 打包时替换 .less => css
       'transform-rename-import',
       {
         original: '^(.+?)\\.less$',
